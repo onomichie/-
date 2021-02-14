@@ -1,6 +1,6 @@
 <?php
     //データベースに接続
-    $dsn ='mysql:dbname=tb221182db;host=localhost';
+    $dsn ='mysql:dbname=tb221182db';
 	$user ='tb-221182';
 	$password ='WsSXc3TApz';
 	$pdo = new PDO($dsn, $user, $password, 
